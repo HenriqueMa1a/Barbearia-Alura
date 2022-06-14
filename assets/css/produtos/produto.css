@@ -1,0 +1,24 @@
+.produto{
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+    transition: all;
+    width: 25%;
+}
+
+.produto:last-child{
+    margin-right: 0;
+}
+
+.produto:hover{
+    border-color: #20aac2;
+    transform: scale(1.1);
+}
+
+.produto:active{
+    border-color: #104953;
+}

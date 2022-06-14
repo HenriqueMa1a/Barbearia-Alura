@@ -1,0 +1,7 @@
+.rodape{
+    align-items: center;
+    background: url("../../img/bg.jpg") center;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+}

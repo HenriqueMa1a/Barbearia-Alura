@@ -1,0 +1,17 @@
+.cabecalho__link{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: all;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cabecalho__link.ativo{
+    color: #104953;
+}
+
+.cabecalho__link:hover{
+    color: #20aac2;
+    text-decoration: underline;
+}

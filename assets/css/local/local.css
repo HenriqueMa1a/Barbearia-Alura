@@ -1,0 +1,7 @@
+.local{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    text-align: center;
+    background: linear-gradient(#fefefe, #888888)
+}
