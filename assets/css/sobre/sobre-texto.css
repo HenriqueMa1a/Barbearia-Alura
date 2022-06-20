@@ -1,4 +1,11 @@
-.sobre__texto{
+.sobre__texto {
     margin-left: 1.2rem;
     width: 60%;
+}
+
+@media screen and (max-width:768px) {
+    .sobre__texto {
+        text-align: justify;
+    }
+
 }

@@ -1,4 +1,10 @@
-.beneficios{
+.beneficios {
     background: #888888;
     padding-top: 7rem;
+}
+
+@media screen and (max-width:768px) {
+    .beneficios {
+        padding-top: 4rem;
+    }
 }

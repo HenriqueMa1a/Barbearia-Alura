@@ -1,5 +1,14 @@
-.formulario__titulo{
+.formulario__titulo {
     font-size: 1.3rem;
     font-weight: 500;
     padding: 2rem 0 0 2rem;
+}
+
+@media screen and (max-width:768px) {
+    .formulario__titulo{
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 2rem 0 0 0 ;
+    }
+
 }

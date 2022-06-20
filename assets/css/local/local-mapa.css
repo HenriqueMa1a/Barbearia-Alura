@@ -1,3 +1,10 @@
-.local__mapa{
-    margin-top: 1.8735rem;
+.local__mapa {
+    height: 300px;
+    width: 70%;
+}
+
+@media screen and (max-width:768px) {
+    .local__mapa {
+        width: 90%;
+    }
 }

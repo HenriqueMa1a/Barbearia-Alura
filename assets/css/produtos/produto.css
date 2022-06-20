@@ -22,3 +22,14 @@
 .produto:active{
     border-color: #104953;
 }
+
+@media screen and (max-width:768px) {
+    .produto, .produto:last-child {       
+        margin: 2rem auto 0;
+        width: 80%;
+    }
+    .produto:last-child{
+        margin-bottom: 2rem;
+    }
+
+}

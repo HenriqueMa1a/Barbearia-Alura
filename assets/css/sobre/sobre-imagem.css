@@ -1,5 +1,13 @@
-.sobre__imagem{
-    width: 120px;
+.sobre__imagem {
     height: 120px;
     margin-top: 1rem;
+    width: 120px;
+}
+
+@media screen and (max-width:768px) {
+    .sobre__imagem {
+        height: 50%;
+        width: 50%;
+    }
+
 }

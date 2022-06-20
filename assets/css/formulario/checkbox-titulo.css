@@ -3,3 +3,11 @@
     font-weight: 500;
     padding: 1rem 0 0 2rem;
 }
+
+@media screen and (max-width:768px) {
+    .checkbox__titulo{
+        font-size: 0.9rem;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+}

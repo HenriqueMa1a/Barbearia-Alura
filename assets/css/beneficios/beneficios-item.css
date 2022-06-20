@@ -1,12 +1,23 @@
-.beneficios__item{
+.beneficios__item {
+
     line-height: 1.5;
     list-style: none;
 }
 
-.beneficios__item:before{
+.beneficios__item:before {
     content: "★";
 }
 
-.beneficios__item:first-child{
+.beneficios__item:first-child {
     font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .beneficios__item {
+        font-size: 1.1875rem;
+    }
+
+    .beneficios__item::after {
+        content: "★";
+    }
 }

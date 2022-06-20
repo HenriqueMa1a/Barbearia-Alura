@@ -1,17 +1,23 @@
-.formulario__botao{
+.formulario__botao {
     background: #104953;
-    border:0;
+    border: 0;
     border-radius: 0.3rem;
     color: white;
     font-weight: bold;
     margin: 1.5rem auto 2rem;
-    padding: 0.6rem;    
+    padding: 0.6rem;
     transition: 1s all;
     width: 30%;
 }
 
-.formulario__botao:hover{
+.formulario__botao:hover {
     color: black;
     background: #20aac2;
     transform: scale(1.1);
+}
+
+@media screen and (max-width:768px) {
+    .formulario__botao{
+        width: 50%;
+    }
 }

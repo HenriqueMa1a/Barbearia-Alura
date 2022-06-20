@@ -1,7 +1,13 @@
-.beneficios__conteudo{
-    align-items: flex-start;
+.beneficios__conteudo {
     display: flex;
     justify-content: center;
     margin-top: 1.8735rem;
+}
 
+@media screen and (max-width:768px) {
+    .beneficios__conteudo {
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: 1rem;
+    }
 }

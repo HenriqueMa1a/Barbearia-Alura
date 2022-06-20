@@ -1,5 +1,12 @@
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     width: 70%;
+}
+
+@media screen and (max-width:768px) {
+    .formulario {
+        width: 100%;
+    }
+
 }

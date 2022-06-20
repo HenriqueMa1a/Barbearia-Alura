@@ -4,3 +4,9 @@
     text-align: center;
     width: 95%;
 }
+
+@media screen and (max-width:768px) {
+    .produto__descricao{
+        font-size: 1.2rem; 
+   }
+}

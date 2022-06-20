@@ -1,4 +1,12 @@
-.formulario__campo{
+.formulario__campo {
     margin: 0.7rem 0 0 2rem;
     width: 70%;
+}
+
+@media screen and (max-width:768px) {
+    .formulario__campo{
+        margin: 0.7rem auto 0;
+        width: 75%;
+
+    }
 }

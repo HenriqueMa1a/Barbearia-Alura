@@ -1,5 +1,14 @@
-.produtos{
+.produtos {
     display: flex;
     justify-content: center;
     margin: 8rem;
+}
+
+@media screen and (max-width:768px) {
+    .produtos{
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
 }

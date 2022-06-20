@@ -1,5 +1,14 @@
-.sobre__container{
+.sobre__container {
     display: flex;
     justify-content: center;
     margin-top: 2.1875rem;
+}
+
+@media screen and (max-width:768px) {
+    .sobre__container {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
 }

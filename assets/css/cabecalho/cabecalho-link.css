@@ -1,4 +1,4 @@
-.cabecalho__link{
+.cabecalho__link {
     color: black;
     font-size: 1.4rem;
     font-weight: bold;
@@ -7,11 +7,17 @@
     text-transform: uppercase;
 }
 
-.cabecalho__link.ativo{
+.cabecalho__link.ativo {
     color: #104953;
 }
 
-.cabecalho__link:hover{
+.cabecalho__link:hover {
     color: #20aac2;
     text-decoration: underline;
+}
+
+@media screen and (max-width:768px) {
+    .cabecalho__link {
+        font-size: 1.1875rem;
+    }
 }

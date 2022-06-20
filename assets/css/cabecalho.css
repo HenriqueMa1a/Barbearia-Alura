@@ -1,7 +1,14 @@
-.cabecalho{
+.cabecalho {
     align-items: center;
     background: #BBBBBB;
     display: flex;
     justify-content: space-around;
-    padding: 1.2rem;
+    padding: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .cabecalho {
+        align-items: center;
+        flex-direction: column;
+    }
 }

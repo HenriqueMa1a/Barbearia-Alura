@@ -3,3 +3,10 @@
     font-weight: 500;
     padding: 2rem 0 0 1.2rem;
 }
+
+@media screen and (max-width:768px) {
+    .canal__titulo{
+        margin: 0 auto;
+        padding-left: 0;
+    }
+}

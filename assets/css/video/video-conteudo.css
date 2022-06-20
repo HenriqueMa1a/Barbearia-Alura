@@ -1,0 +1,12 @@
+.video__conteudo {
+    height: 315px;
+    margin: 4rem 0 4.5rem;
+    width: 45%;
+}
+
+@media screen and (max-width:768px) {
+    .video__conteudo {
+        width: 85%;
+        height: 315px;
+    }
+}

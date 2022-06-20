@@ -1,0 +1,5 @@
+@media screen and (max-width:768px) {
+    .beneficios__lista {
+        text-align: center;
+    }
+}
